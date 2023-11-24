@@ -12,7 +12,8 @@ function App() {
     <div className="App">
         <Navbar />
         <SearchBar />
-       {/*the rows below will request for posters in the API from */}
+   
+       {/*the rows below will request for posters in the API */}
         <Row title="Popular Movies" fetchUrl={requests.fetchPopularMovies} />
         <Row title="Top Rated" fetchUrl={requests.fetchTopRated} />
         <Row title="Upcoming Movies" fetchUrl={requests.fetchUcomingMovies} />
