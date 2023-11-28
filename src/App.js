@@ -15,6 +15,7 @@ function App() {
    
        {/*the rows below will request for posters in the API */}
         <Row title="Popular Movies" fetchUrl={requests.fetchPopularMovies} />
+   
         <Row title="Top Rated" fetchUrl={requests.fetchTopRated} />
         <Row title="Upcoming Movies" fetchUrl={requests.fetchUcomingMovies} />
         <Row title="Action Movies" fetchUrl={requests.fetchActionMovies} />
