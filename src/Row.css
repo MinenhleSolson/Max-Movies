@@ -5,7 +5,6 @@
     padding: 30px;
 }
 
-
 .row_posters2 {
     display: flex;
     overflow-y: hidden;
@@ -50,6 +49,7 @@
 .max {
     text-align: center;
     margin-left: 50px;
+    
 }
 
 .trailer {
